@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Login"/>
+
+    <EditText
+        android:id="@+id/edit_idno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Enter ID number"
+        android:background="#FEFEFE"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_passw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Enter password"
+        android:background="#FEFEFE"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
