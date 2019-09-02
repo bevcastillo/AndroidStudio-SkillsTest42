@@ -4,14 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="#dedede"
     android:padding="20dp">
 
-    <ListView
-        android:id="@+id/listview_questions"
+<!--    <ListView-->
+<!--        android:id="@+id/listview_questions"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#FEFEFE" />-->
+
+    <EditText
+        android:id="@+id/studidno"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FEFEFE" />
+        android:layout_height="wrap_content"
+        android:background="#FEFEFE"
+        android:hint="Enter id number"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:background="@color/colorPrimary"
+        android:textColor="#FEFEFE"
+        android:layout_marginTop="30dp"/>
 
 </LinearLayout>
